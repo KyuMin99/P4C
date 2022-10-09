@@ -51,8 +51,8 @@
         $mail->SMTPAuth = true;
         $mail->Port = 465;
         $mail->SMTPSecure = "ssl";
-        $mail->Username   = "slowturtles99@gmail.com";
-        $mail->Password   = "lydsdxrvarejijjx";
+        $mail->Username   = "gmail계정";
+        $mail->Password   = "gmail비번";
         $mail->SMTPKeepAlive = true;
 
 

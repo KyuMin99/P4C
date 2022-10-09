@@ -4,7 +4,7 @@
   // error_reporting(E_ALL);
   // ini_set('display_errors', '1');
 
-  $conn = mysqli_connect("localhost", "slowturtle", "turtle99!", "slowturtle");
+  $conn = mysqli_connect("localhost", "DB계정", "DB패스워드", "DB명");
 
   if(!$conn) {
     echo "Error Unable to connect to Mariadb.";
