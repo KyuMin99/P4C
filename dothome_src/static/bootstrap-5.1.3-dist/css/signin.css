@@ -1,0 +1,161 @@
+html,
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.board-read {
+  width: 100%;
+  max-width: 420px;
+  height: 556px;
+  padding: 60px 70px;
+  margin: auto;
+  font-weight: 400;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 420px;
+  height: 556px;
+  padding: 60px 70px;
+  margin: auto;
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.line {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+.line::before {
+  display: inline-block;
+  width: calc(50% - 20px);
+  height: 1px;
+  margin: 8px 0;
+  background-color: rgba(0,0,0,0.06);
+  vertical-align: top;
+  content: '';
+}
+
+.line::after {
+  display: inline-block;
+  width: calc(50% - 20px);
+  height: 1px;
+  margin: 8px 0;
+  background-color: rgba(0,0,0,0.06);
+  vertical-align: top;
+  content: '';
+}
+
+.txt {
+  display: inline-block;
+  width: 40px;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(0,0,0,0.3);
+}
+
+.keep {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 15px;
+  color: #4c4c4c;
+  cursor: pointer;
+}
+
+.keepBtn {
+  display: inline-block;
+  overflow: hidden;
+  width: 15px;
+  height: 15px;
+}
+
+.keepLogin{
+  display: block;
+  margin-left: 10px;
+  color: #252525;
+  font-size: 14px;
+}
+
+#loginBtn {
+  height: 50px;
+  background-color: #FEE500;
+  border: none;
+  color: #191919;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.floatingInput {
+  border-radius: 0;
+  box-shadow: none;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  cursor: pointer;
+}
+
+.form-floating > label {
+  color: #8E8E8E;
+  padding: 0;
+  padding-top: 18px;
+}
+
+.floatingInput:focus {
+  padding-left: 0;
+  border-bottom: 2px;
+}
+
+#qrBtn {
+  height: 50px;
+  background-color: #E7E7E7;
+  border: none;
+  color: #191919;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#etc {
+  color: #000000B3;
+  font-size: 12px;
+}
+
+#account {
+  width: 100%;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #E5E5E5;
+}
