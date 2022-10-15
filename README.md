@@ -1,6 +1,6 @@
 ﻿# P4C php study
 
-## 완성본: http://slowturtle.dothome.co.kr/
+## 완성본: 
 
 ## 수정된 코드 파일은 dothome_src 폴더에 있습니다.
 
